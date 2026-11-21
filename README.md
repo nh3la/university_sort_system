@@ -18,7 +18,11 @@ g++ -std=c++17 -pthread main.cpp University.cpp -o university_app
 Choose a mode:
 
 bash
+
 ./university_app demo                # Generate sample reports
+
 ./university_app import sample.univ  # Load data from a file
+
 ./university_app test                # Run five built-in tests
+
 ./university_app benchmark           # Measure merge sort speed and correctness
